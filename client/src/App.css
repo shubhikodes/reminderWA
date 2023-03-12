@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Pacifico&display=swap");
+
+body {
+  background: rgb(223, 7, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(223, 7, 138, 1) 0%,
+    rgba(31, 91, 239, 1) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  max-height: 500vh;
+  min-height: 100vh;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.homepage {
+  font-family: "Montserrat", sans-serif;
+  min-width: 100%;
+  min-height: 100%;
+  background: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homepage_header {
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 20%;
+  min-height: fit-content;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  background: #f1faee;
+  position: relative;
+}
+
+.homepage_header > h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.homepage_header > .button {
+  background: #1877f2;
+  border: 1px solid #1877f2;
+  color: #fff;
+  font-size: 1.25rem;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin: 1rem 0.5rem 0 0.5rem;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  width: 40%;
+}
+
+.homepage_header > input {
+  border: 1px solid grey;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.4rem 0rem;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #f1faee;
+}
+
+.react-datetime-picker {
+  width: 100% !important;
+}
+
+.homepage_body {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.reminder_card {
+  width: 25%;
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+  display: inline-block;
+  background: #f1faee;
+  border-radius: 8px;
+  margin: 2rem;
+  padding: 1rem;
+  min-width: 300px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.reminder_card > h2 {
+  margin-bottom: 1rem;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0.5rem 0 0.5rem 0;
+  text-transform: capitalize;
+}
+
+.reminder_card > h3 {
+  color: #4c5c68;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 0.75rem 0;
+  font-size: 1rem;
+}
+
+.reminder_card > p {
+  font-family: "Dancing Script", cursive;
+  font-weight: 500;
+  color: #6c757d;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.reminder_card > .button {
+  background: #1877f2;
+  border: 1px solid #1877f2;
+  color: #fff;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin: auto;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  width: 40%;
+  border-radius: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
